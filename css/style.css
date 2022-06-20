@@ -22,10 +22,14 @@ background-color: #3D348B;
 display: flex;
 justify-content: space-between;
 padding: 2rem;
+position: fixed;
+z-index: 100;
+width: 100%;
+
 }
 .main{
 background-color: #B8B3E9;
-padding: 2rem;
+padding: 10rem;
 }
 
 .footer{
@@ -34,7 +38,6 @@ padding: 2rem;
     display: grid;
     justify-content: center;
     padding: 2rem;
-
 }
 
 
