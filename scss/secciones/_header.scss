@@ -1,0 +1,41 @@
+.navbar {
+    background-color: #3D348B !important;
+
+}
+
+.collapse {
+    ul {
+        li {
+            a{ color: white;}
+        }
+    }
+}
+
+.collapse {
+    ul {
+        li {
+            a {
+                color: white;
+            }
+        }
+    }
+}
+
+.container-fluid {
+    justify-content: space-around !important;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: rgb(255, 255, 255);
+
+}
+
+.block {
+    color: white;
+}
+
+.brand {
+    width: 155px;
+    height: 95px;
+}

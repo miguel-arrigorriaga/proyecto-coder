@@ -1,170 +1,118 @@
-@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
-*{
-    margin: 0%;
-    padding: 0%;
-}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
 
-h1{
-    color: chocolate;
-   
-    display: inline;
-    font-size: 25px;
-    font-family:'Macondo', cursive;
+.navbar {
+  background-color: #3D348B !important; }
 
-}
-ul li{
-    color:black
-  
-}
-.menu{
-color: black;
-background-color: #3D348B;
-display: flex;
-justify-content: space-between;
-padding: 2rem;
-position: fixed;
-z-index: 100;
-width: 100%;
+.collapse ul li a {
+  color: white; }
 
-}
-.main{
-background-color: #B8B3E9;
-padding: 10rem;
-}
+.collapse ul li a {
+  color: white; }
 
-.footer{
-    color: blueviolet;
-    background-color: #3D348B;
-    display: grid;
-    justify-content: center;
-    padding: 2rem;
-}
+.container-fluid {
+  justify-content: space-around !important; }
 
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: white; }
 
-.inline nav{
-padding: 1rem;
-list-style: none;
-margin-right: 2rem;
-align-items: center;
-    
-}
-.inline ul li a{
-   text-decoration: none;
-    color: white;
-    padding: 2rem;
-  
-}
-.inline ul{
-    list-style: none;
-    display: flex;
-    gap: 1rem
-    ;
-}
+.block {
+  color: white; }
 
-.footerTexto{
-    display: grid;
-    grid-template-columns: 100px 100px 100px ;
-    width: 50vw;
-    justify-content: center;
-    align-content: space-around;
-    justify-items: start;
-    align-items: stretch;
+.brand {
+  width: 155px;
+  height: 95px; }
 
- 
-}
-.footerTexto li{
-    list-style: none;
-    font-size: 2rem;
-    color: white;
-}
+.footer {
+  color: blueviolet;
+  background-color: #3D348B;
+  display: grid;
+  justify-content: center;
+  padding: 2rem; }
 
+.footerTexto {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  width: 50vw;
+  justify-content: center;
+  align-content: space-around;
+  justify-items: start;
+  align-items: stretch; }
 
-   .foto{
-width: 400px;
-height: 300px;
-   }
-   .label{
-       display: flex;
-       color: black;
-    gap: 2rem;
-    flex-direction: column;
-    width: 400px;
-   }
-   .label input{
-       text-align: center;
-      
-   }
+.footerTexto li {
+  list-style: none;
+  font-size: 2rem;
+  color: white; }
 
-.formulario{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    
+.menu {
+  color: black;
+  background-color: #3D348B;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  position: fixed;
+  z-index: 100;
+  width: 100%; }
 
-}
+.main {
+  background-color: #939292;
+  padding: 2rem; }
 
+.imagenFondo {
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/992/94/515/argentina-bariloche-clouds-forest-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem;
+  margin: 2rem; }
 
-.container{
-    display: flex;
-    padding: 50px;
-    gap: 1rem;
+.foto {
+  width: 400px;
+  height: 300px; }
 
+.label {
+  display: flex;
+  color: black;
+  gap: 2rem;
+  flex-direction: column;
+  width: 400px; }
 
+.label input {
+  text-align: center; }
 
-}
-.formularioContacto{
-    display: flex;
-    justify-content: left;
-    padding: 1rem;
+.formulario {
+  display: flex;
+  justify-content: center;
+  padding: 20px; }
 
-}
-.text{
-    color: black;
-}
+.container {
+  display: flex;
+  padding: 50px;
+  gap: 1rem; }
 
-.protocolo{
-    padding: 1rem;
-    font-size: large;
-}
-.fotoCovid{
-    width: 800px;
-    height: 800px;
-}
+.formularioContacto {
+  display: flex;
+  justify-content: left;
+  padding: 1rem; }
 
-@media(max-width:873px){
-    .menu{
-        flex-direction: column;
-    }
-    .inline ul{
-        flex-direction: column;
-    }
-}
+.text {
+  color: black; }
 
+.protocolo {
+  padding: 1rem;
+  font-size: large; }
 
-@media(max-width:625px){
-    .container{
-        flex-direction: column;
-    }
-    
+.fotoCovid {
+  width: 800px;
+  height: 800px; }
 
-  }
+.manso {
+  width: 400px;
+  height: 400px;
+  margin: 2rem;
+  padding: 2rem; }
 
-
-  @media(max-width:576px){
-      .foto{
-          width: 100%;
-      }
-      .formulario{
-          width: 250px;
-      }
-  }
-      
-
-
-
-
-
-
-
-
-
+.rioManso {
+  color: #3D348B; }

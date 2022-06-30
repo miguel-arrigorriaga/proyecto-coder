@@ -1,0 +1,81 @@
+.menu {
+    color: black;
+    background-color: #3D348B;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+  }
+  
+  .main {
+    background-color: #939292;
+    padding: 2rem;
+    
+  }
+  .imagenFondo{
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/992/94/515/argentina-bariloche-clouds-forest-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem;
+  margin: 2rem;
+  }
+  .foto {
+   @include fotos;
+  }
+  
+  .label {
+    display: flex;
+    color: black;
+    gap: 2rem;
+    flex-direction: column;
+    width: 400px;
+  }
+  
+  .label input {
+    text-align: center;
+  }
+  
+  .formulario {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    padding: 50px;
+    gap: 1rem;
+  }
+  
+  .formularioContacto {
+    display: flex;
+    justify-content: left;
+    padding: 1rem;
+  }
+  
+  .text {
+    color: black;
+  }
+  
+  .protocolo {
+    padding: 1rem;
+    font-size: large;
+  }
+  
+  .fotoCovid {
+    width: 800px;
+    height: 800px;
+  }
+  
+  .manso{
+    width: 400px;
+    height: 400px;
+    margin: 2rem;
+    padding: 2rem;
+  }
+.rioManso{
+  color: #3D348B;
+
+}

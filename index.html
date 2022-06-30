@@ -13,25 +13,69 @@
 
 <body>
     <header class="menu">
-        <h1 class="block">HOSTERIA PUYEHUE</h1>
-        <nav class="inline">
-            <ul>
-                <li>
-                    <a href="./index.html">INICIO</a>
-                </li>
-                <li ><a href="./habitacion.html">HABITACION</a>
-                </li>
-                <li><a href="./infoynovedades.html">INFO</a>
-                </li>
-                <li><a href="./servicios.html">SERVICIO</a>
-                </li>
-                <li><a href="./contacto.html">CONTACTO</a>
-                </li>
+        
 
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid"> <img class="brand" src="https://www.hosteriapuyehue.com/wp-content/uploads/2021/02/hosteria-puyehue-2020-safe-travel.jpg" alt="logo">
+               
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./habitacion.html">HABITACION</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./infoynovedades.html">INFO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./servicios.html">SERVICIOS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">CONTACTO</a>
+                  </li>
+                  
+                  
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
     </header>
     <main class="main">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.hosteriapuyehue.com/wp-content/uploads/2017/12/IMG_0093_-001-1068x712.jpg" class="d-block w-90" alt="lobby">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.hosteriapuyehue.com/wp-content/uploads/2017/12/DSCN4475-1068x801.jpg" class="d-block w-90" alt="habitacion triple">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.hosteriapuyehue.com/wp-content/uploads/2017/12/DSCN4458-1068x801.jpg" class="d-block w-90" alt="habitacion4">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <p class="rioManso">RIO MANSO</p>
+       <a href="./riomanso.html"> <img class="manos" src="https://www.hosteriapuyehue.com/wp-content/uploads/2022/02/Rio_Manso-696x522.jpg"alt="rio manso"></a>
+        <div class="imagenFondo">
         <div class="container">
             <section class="descripcion">
                 <h2>Lorem ipsum dolor sit amet consectetur.</h2>
@@ -50,8 +94,7 @@
             </section>
             <div class="foto">
 
-                <img class="foto" src="https://vive-media-tpvbooking.netdna-ssl.com/172877/0.jpg" alt="de-afuera"
-                    width="400px" height="300px">
+               
             </div>
         </div>
         <div class="formulario">
@@ -66,14 +109,14 @@
                 </label>
             </form>
         </div>
-
+    </div>
     </main>
 
     <footer class="footer">
         <ul class="footerTexto">
-            <li><i class="fa-brands fa-facebook"></i></li>
-            <li><i class="fa-brands fa-instagram"></i></li>
-            <li><i class="fa-brands fa-twitter"></i></li>
+            <a href="https://www.facebook.com/" target="_blank"><li><i class="fa-brands fa-facebook"></i></li></a>
+           <a href="https://www.instagram.com/"> <li><i class="fa-brands fa-instagram"></i></li></a>
+            <a href="https://twitter.com/" target="_blank"><li><i class="fa-brands fa-twitter"></i></li>
         </ul>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
