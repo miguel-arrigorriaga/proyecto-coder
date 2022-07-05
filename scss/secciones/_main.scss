@@ -3,7 +3,7 @@
     background-color: #3D348B;
     display: flex;
     justify-content: space-between;
-    padding: 2rem;
+    padding: .5rem;
     position: fixed;
     z-index: 100;
     width: 100%;
@@ -11,7 +11,8 @@
   
   .main {
     background-color: #939292;
-    padding: 2rem;
+    padding: 3rem;
+  
     
   }
   .imagenFondo{
@@ -20,10 +21,16 @@
   background-size: cover;
   padding: 2rem;
   margin: 2rem;
+  height: 100vh;
+  
   }
   .foto {
-   @include fotos;
+    width: 400px;
+    height: 300px;
+    padding: 1rem;
+    margin: 1rem;
   }
+  
   
   .label {
     display: flex;
@@ -72,8 +79,10 @@
   .manso{
     width: 400px;
     height: 400px;
-    margin: 2rem;
-    padding: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    flex: content;
+    flex-direction: row;
   }
 .rioManso{
   color: #3D348B;
