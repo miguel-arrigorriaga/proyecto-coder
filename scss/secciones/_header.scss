@@ -1,5 +1,6 @@
 .navbar {
     background-color: #3D348B !important;
+   
 
 }
 
@@ -22,12 +23,14 @@
 }
 
 .container-fluid {
-    justify-content: space-around !important;
+    align-content: space-around !important;
+    text-align: end !important;
 }
 
 .navbar-nav .nav-link.active,
 .navbar-nav .show>.nav-link {
     color: rgb(255, 255, 255);
+    text-align: end;
 
 }
 
@@ -38,4 +41,11 @@
 .brand {
     width: 155px;
     height: 95px;
+}
+.nav-link{
+    text-align: center;
+}
+
+.carousel-control-prev{
+justify-content: flex-start;
 }
